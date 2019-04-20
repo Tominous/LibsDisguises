@@ -116,8 +116,8 @@ AddEntityAnimations: true
 # This is a option that either prevents that happening, or it changes their color officially in the plugin so that everyone sees it changed.
 # Its currently set to false which means that the color is not changed and will refresh itself to the player.
 # Please note that this will not remove the dye from their hands. This also does not check if the disguised entity is actually a sheep/wolf and wants a say in its color.
-DyeableSheep: false
-DyeableWolf: false
+DyeableSheep: true
+DyeableWolf: true
 
 # This is only called into action when the disguise is constructed using the commands.
 # And when the disguise supports that. This will not be used at all for plugins constructing the disguises for instance.
